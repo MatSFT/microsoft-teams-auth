@@ -1,0 +1,26 @@
+{
+  "name": "microsoft-teams-auth",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattSFT/microsoft-teams-auth.git"
+  },
+  "keywords": [],
+  "author": "Microsoft Corp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MattSFT/microsoft-teams-auth/issues"
+  },
+  "homepage": "https://github.com/MattSFT/microsoft-teams-auth#readme",
+  "devDependencies": {
+    "typescript": "^2.4.1"
+  }
+}
